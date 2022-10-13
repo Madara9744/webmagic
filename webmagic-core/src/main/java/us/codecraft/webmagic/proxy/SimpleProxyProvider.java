@@ -18,6 +18,8 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class SimpleProxyProvider implements ProxyProvider {
 
     private final List<Proxy> proxies;
+    
+    private final List<Passwords> passwords;
 
     private final AtomicInteger pointer;
 
